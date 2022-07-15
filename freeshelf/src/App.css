@@ -1,0 +1,61 @@
+h1 {
+  text-align: center;
+  font-size: 500%;
+  color:antiquewhite;
+  letter-spacing: 10px;
+
+}
+
+body {
+  background-image: url("darker.jpg");
+  
+}
+
+.book_title {
+  color: #f9f8f3;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: justify;
+  -webkit-text-stroke: .3px #ebf3c9; 
+  font-size: 35px;
+
+}
+
+.author, .short_description {
+  color: #f9f8f3;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: left;
+  -webkit-text-stroke: .3px #ebf3c9; 
+  font-size: 22px;
+  
+}
+  
+button {
+  background-color: #6ea16f;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 18px;
+  
+}
+button:hover {
+  background-color: #7dc02c;
+}
+
+.detailed_description {
+  color: #eef5df;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-align: left;
+  -webkit-text-stroke: .05px #474743; 
+
+} 
+
+.xtrainfo {
+  color:#21c732;
+}
