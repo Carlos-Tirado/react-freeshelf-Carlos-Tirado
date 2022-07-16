@@ -99,13 +99,13 @@ function BookComponent({book}) {
     const [expanded, setExpanded] = useState(false);   
 
     return (
-      <div className="eachBook" style={{ padding: "50px" }}>
+      <div className="eachBook" style={{ padding: "70px" }}>
 
-          <div className="book_image"><img alt="" img style={{ height: "300px", float: "right" }} src={book.coverImageUrl}/></div>
+          <div className="book_image"><img alt="" img style={{ height: "250px", float: "right" }} src={book.coverImageUrl}/></div>
           <p style={{ clear: "right" }}>
 
           <div className='book_title'><strong>{book.title}</strong></div>
-          <br></br>
+          
           <div className='author'>{book.author}</div>
           </p>
           <br></br>

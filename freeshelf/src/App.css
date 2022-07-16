@@ -1,9 +1,9 @@
 h1 {
   text-align: center;
-  font-size: 500%;
+  font-size: 650%;
   color:antiquewhite;
   letter-spacing: 10px;
-
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -11,13 +11,14 @@ body {
   
 }
 
+
 .book_title {
   color: #f9f8f3;
-  letter-spacing: 1px;
   font-weight: 500;
   text-align: justify;
   -webkit-text-stroke: .3px #ebf3c9; 
-  font-size: 35px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -58,4 +59,12 @@ button:hover {
 
 .xtrainfo {
   color:#21c732;
+}
+
+.eachBook {
+  border: outset;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #6a9d78;
 }
